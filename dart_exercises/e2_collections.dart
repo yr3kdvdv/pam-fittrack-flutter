@@ -17,8 +17,10 @@ double promotedAverage(List<int> grades) {
 }
 
 void main() {
-  print('promotedAverage([9, 4, 7, 10, 3, 5]) → '
-      '${promotedAverage([9, 4, 7, 10, 3, 5])}');
+  print(
+    'promotedAverage([9, 4, 7, 10, 3, 5]) → '
+    '${promotedAverage([9, 4, 7, 10, 3, 5])}',
+  );
   print('promotedAverage([10, 10, 9]) → ${promotedAverage([10, 10, 9])}');
   print('promotedAverage([3, 4, 2]) → ${promotedAverage([3, 4, 2])}');
 }
